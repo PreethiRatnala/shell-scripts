@@ -1,8 +1,8 @@
 #!bin/bash
 
-#echo "enter your number"
-#number=$1
-number=read -p "enter your number:" $1
+echo "enter your number"
+number=$1
+read $number
 
 if [ $number -gt 4 ];then
 echo "$number greater than 4"
