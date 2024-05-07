@@ -1,6 +1,6 @@
 #!bin/bash
 
-number=echo "enter your number:"
+number=echo "enter your number:$1"
 
 read number
 
