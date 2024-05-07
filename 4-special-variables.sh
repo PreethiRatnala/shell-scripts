@@ -9,4 +9,4 @@ echo "crrent directory: $PWD"
 echo "script name: $0"
 echo "pid: $$"
 sleep 10
-echo "pid of st background command: $$!"
+echo "pid of st background command: $!"
