@@ -2,7 +2,7 @@
 
 echo "enter your number"
 number=$1
-read $number
+read number
 
 if [ $number -gt 4 ];then
 echo "$number greater than 4"
